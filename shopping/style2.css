@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+h1{
+    text-align: center;
+    color: rgb(235, 216, 68);
+    text-shadow: 2px 2px ;
+    font-size: 100px;
+    background-color: rgb(244, 238, 232);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+div{
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    
+    /* background-color: rgb(182, 128, 128) ; */
+    
+    
+}
+
+div h2{
+    text-align: center;
+}
+
+div img{
+ outline: none;
+ 
+ height: 150px;
+}
+
+div h3{
+    text-align: center;
+    margin: 5px;
+}
+
+div p{
+    font-weight: 900;
+}
+
+#container{
+   display: grid;
+   grid-template-columns:  4fr 4fr 2fr 300px ;
+
+   width: 100%;
+
+    outline: none;
+    border: 0;
+    outline-style: none;
+    outline-color: aliceblue;
+    overflow: hidden;
+    
+    
+    
+}
+
+.price {
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+#container{
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: fit-content;
+    margin: 0;
+    position: absolute;
+    top: 120px;
+    
+}
+
+div{
+    background-color: white;
+
+    border-radius: 20px;
+
+   padding-top: 0;
+   padding-bottom: 0;
+   
+   
+    
+    
+
+    
+    
+    
+}
+
+
+.s:hover{
+    box-shadow: 5px 5px 5px 5px ;
+}
+
+.s{
+   width: 300px;
+   margin: ;
+    
+}
+
+.items button{
+    
+    border: 0;
+} 
+
+p{
+    font-size: 20px;
+}
+
+.plus {
+    height: 20px;
+    width:20px;
+
+    margin:px;
+
+    
+
+
+}
+
+.minus{
+    height: 20px;
+    width:20px;
+
+}
+
+.minus img{
+
+    height: 20px;
+    width:20px;
+
+}
+
+.plus img{
+    height: 20px;
+    width:20px;
+
+
+}
+
+.b{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+  
+
+}
+
+
+
